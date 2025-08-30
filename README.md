@@ -46,6 +46,17 @@ python src/main.py
 python run.py # Универсальный
 ```
 
+### 4. Отправка изменений в оба репозитория
+```bash
+# Автоматический пуш в GitHub и GitVerse
+./scripts/push_all.sh      # macOS/Linux
+./scripts/push_all.bat     # Windows
+
+# Или вручную
+git push origin main       # GitHub
+git push gitverse main     # GitVerse
+```
+
 ## 📁 Структура проекта
 
 ```
@@ -63,7 +74,9 @@ DataForgePDF/
 │   ├── Arial Unicode.ttf    # Системный шрифт macOS
 │   └── Roboto-Bold.ttf      # Google шрифт (жирный)
 ├── scripts/
-│   └── setup_venv.py       # Скрипт инициализации
+│   ├── setup_venv.py       # Скрипт инициализации
+│   ├── push_all.sh         # Пуш в оба репозитория (macOS/Linux)
+│   └── push_all.bat        # Пуш в оба репозитория (Windows)
 ├── requirements.txt         # Зависимости Python
 ├── run.py                   # Универсальный запуск
 ├── run.sh                   # Запуск для macOS/Linux
