@@ -26,7 +26,7 @@ setup(
     description="Генератор PDF документов с полной поддержкой кириллицы",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/DataForgePDF",
+    url="https://github.com/egorovmikhail/DataForgePDF",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -67,8 +67,8 @@ setup(
     },
     keywords="pdf generation, cyrillic support, data processing, weasyprint, reportlab",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/DataForgePDF/issues",
-        "Source": "https://github.com/yourusername/DataForgePDF",
-        "Documentation": "https://github.com/yourusername/DataForgePDF#readme",
+        "Bug Reports": "https://github.com/egorovmikhail/DataForgePDF/issues",
+        "Source": "https://github.com/egorovmikhail/DataForgePDF",
+        "Documentation": "https://github.com/egorovmikhail/DataForgePDF#readme",
     },
 )

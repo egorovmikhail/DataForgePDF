@@ -17,7 +17,12 @@
 
 ### 1. Клонирование и настройка
 ```bash
-git clone <repository-url>
+# GitHub
+git clone https://github.com/egorovmikhail/DataForgePDF.git
+
+# Или GitVerse (альтернативный)
+git clone https://gitverse.ru/mve/DataForgePDF.git
+
 cd DataForgePDF
 python scripts/setup_venv.py
 ```
